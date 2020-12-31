@@ -1,0 +1,93 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "糗事百科"
+			}
+		}
+	    ,{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/paper/paper",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user-set/user-set",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user-list/user-list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color":"#b5b5b5",
+		"selectedColor":"#fede48",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "糗事",
+			"iconPath":"static/tabbar/index.png",
+			"selectedIconPath":"static/tabbar/indexed.png"
+		}, {
+			"pagePath": "pages/news/news",
+			"text": "动态",
+			"iconPath":"static/tabbar/news.png",
+			"selectedIconPath":"static/tabbar/newsed.png"
+		}, {
+			"pagePath": "pages/paper/paper",
+			"text": "小纸条",
+			"iconPath":"static/tabbar/paper.png",
+			"selectedIconPath":"static/tabbar/papered.png"
+		}, {
+			"pagePath": "pages/home/home",
+			"text": "我的",
+			"iconPath":"static/tabbar/home.png",
+			"selectedIconPath":"static/tabbar/homeed.png"
+		}]
+	}
+}
